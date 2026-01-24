@@ -19,10 +19,10 @@ export function Header() {
 
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="container-narrow">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-around h-16 md:h-20">
        
           <a href="#" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
+            <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center bg-accent">
               <span className="text-primary-foreground font-bold text-lg">F</span>
             </div>
             <span className="font-bold text-xl text-foreground">FlowManage</span>
@@ -42,10 +42,10 @@ export function Header() {
 
          
           <div className="hidden md:flex items-center gap-3">
-            <Button variant="ghost" size="sm">
+            <Button variant="ghost" size="sm" className="cursor-pointer">
               Entrar
             </Button>
-            <Button variant="hero" size="sm">
+            <Button className="bg-primary cursor-pointer">
               Começar grátis
             </Button>
           </div>
