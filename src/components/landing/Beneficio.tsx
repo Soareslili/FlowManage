@@ -45,7 +45,7 @@ const itemVariants = {
 
 export function Benefits() {
   return (
-    <section id="beneficios" className="section-padding bg-secondary/30">
+    <section id="beneficios" className="py-20 bg-secondary/30">
       <div className="container-narrow">
         {/* Section Header */}
         <motion.div
