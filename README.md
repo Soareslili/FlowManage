@@ -1,73 +1,113 @@
-# React + TypeScript + Vite
+🚀 FlowManage — Landing Page SaaS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page institucional desenvolvida para o FlowManage, uma plataforma de gestão voltada para pequenos e médios negócios, com foco em organização, produtividade e eficiência.
 
-Currently, two official plugins are available:
+O projeto foi pensado para apresentar um produto SaaS real, comunicando valor de forma clara, profissional e estratégica, com uma experiência moderna e responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Visão Geral
 
-## React Compiler
+O FlowManage é uma landing page SaaS criada para:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Apresentar um produto digital de forma clara e confiável
 
-## Expanding the ESLint configuration
+Destacar benefícios e diferenciais da plataforma
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Guiar o usuário para conversão (contato/orçamento)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Oferecer uma experiência visual moderna e profissional
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Mais do que um layout bonito, o foco do projeto está em UX, clareza de conteúdo e posicionamento de produto.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🧩 Funcionalidades
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Hero section com proposta de valor clara
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Seção de benefícios e diferenciais do produto
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Apresentação da solução SaaS
+
+Seção de recursos/funcionalidades
+
+FAQ com perguntas frequentes
+
+Formulário de contato funcional (Formspree)
+
+Layout totalmente responsivo
+
+Navegação fluida e intuitiva
+
+🛠️ Tecnologias Utilizadas
+
+React
+
+TypeScript
+
+Vite
+
+Tailwind CSS
+
+Formspree (envio de formulário sem backend)
+
+Lucide Icons
+
+🎨 Design & UX
+
+Design moderno e elegante
+
+Visual alinhado a produtos SaaS
+
+Paleta profissional (tons de roxo, azul e neutros)
+
+Tipografia clara e bem hierarquizada
+
+Componentes reutilizáveis
+
+Foco em legibilidade e conversão
+
+📱 Responsividade
+
+O projeto foi desenvolvido com abordagem mobile-first, garantindo uma ótima experiência em:
+
+Smartphones
+
+Tablets
+
+Desktops
+
+📬 Formulário de Contato
+
+O formulário de contato utiliza Formspree, permitindo o envio direto das mensagens para o e-mail sem a necessidade de backend.
+
+O projeto está preparado para futura integração com backend próprio (Node.js / API).
+
+🚀 Como Executar o Projeto
+Pré-requisitos
+
+Node.js instalado
+
+Passos
+# Clone o repositório
+git clone https://github.com/seu-usuario/flowmanage-landing-page.git
+
+# Acesse a pasta do projeto
+cd flowmanage-landing-page
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+
+
+O projeto estará disponível em:
+http://localhost:5173
+
+📌 Status do Projeto
+
+✅ Concluído (Landing Page)
+🔧 Preparado para evoluções futuras (backend, dashboard, app)
+
+👩‍💻 Autora
+
+Desenvolvido por Lidiane 💜
+Front-end Developer focada em criar experiências digitais modernas, organizadas e eficientes.
