@@ -65,7 +65,7 @@ export function TargetAudience() {
 
 
 
-        <div className=" w-6xl ml-[20%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div className=" w-6xl ml-auto mr-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {audiences.map((audience, index) => (
             <motion.div
               key={index}
