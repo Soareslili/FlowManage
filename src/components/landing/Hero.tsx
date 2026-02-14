@@ -6,16 +6,16 @@ import dashboardImage from "../../assets/dashboard.png";
 export function Hero() {
   return (
     <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden">
-      {/* Background gradient */}
+   
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-secondary/30 -z-10" />
       
-      {/* Decorative elements */}
+    
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl -z-10" />
 
       <div className="container-narrow">
         <div className="text-center max-w-4xl mx-auto">
-          {/* Badge */}
+         
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ export function Hero() {
             </span>
           </motion.div>
 
-          {/* Headline */}
+      
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export function Hero() {
             <span className="gradient-text">simples, rápida e inteligente</span>
           </motion.h1>
 
-          {/* Subtitle */}
+       
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ export function Hero() {
             dashboard intuitivo. Simplifique sua rotina e foque no que realmente importa.
           </motion.p>
 
-          {/* CTA Buttons */}
+        
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -66,7 +66,7 @@ export function Hero() {
             </Button>
           </motion.div>
 
-          {/* Dashboard Preview */}
+        
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -79,11 +79,11 @@ export function Hero() {
                 alt="FlowManage Dashboard"
                 className="w-full h-auto"
               />
-              {/* Overlay gradient */}
+             
               <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
             </div>
             
-            {/* Floating elements */}
+          
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -121,7 +121,7 @@ export function Hero() {
             </motion.div>
           </motion.div>
 
-          {/* Trust indicators */}
+       
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

@@ -36,7 +36,7 @@ export function Testimonials() {
   return (
     <section id="depoimentos" className="py-20 bg-secondary/30">
       <div className="container-narrow">
-        {/* Section Header */}
+      
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export function Testimonials() {
           </p>
         </motion.div>
 
-        {/* Metrics */}
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -73,7 +73,7 @@ export function Testimonials() {
           ))}
         </motion.div>
 
-        {/* Testimonials Grid */}
+   
         <div className=" w-full px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <motion.div
@@ -84,22 +84,22 @@ export function Testimonials() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-[#e5e5e7] rounded-2xl p-4 hover-lift"
             >
-              {/* Quote icon */}
+            
               <Quote size={32} className="text-accent mb-4" />
 
-              {/* Content */}
+             
               <p className="text-foreground mb-6 leading-relaxed">
                 "{testimonial.content}"
               </p>
 
-              {/* Rating */}
+             
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, starIndex) => (
                   <Star key={starIndex} size={16} className="fill-primary text-primary" />
                 ))}
               </div>
 
-              {/* Author */}
+             
               <div className="flex items-center gap-3">
                 <img
                   src={testimonial.image}

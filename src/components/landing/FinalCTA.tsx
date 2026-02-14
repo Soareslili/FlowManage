@@ -5,7 +5,7 @@ import { Button } from "../../components/ui/button";
 export function FinalCTA() {
   return (
     <section className="py-12 md:py-20 relative overflow-hidden">
-      {/* Background */}
+    
       <div className="absolute inset-0 gradient-bg opacity-5 -z-10" />
       <div className="absolute top-0 left-1/4 w-48 md:w-96 h-48 md:h-96 bg-primary/20 rounded-full blur-3xl -z-10" />
       <div className="absolute bottom-0 right-1/4 w-48 md:w-96 h-48 md:h-96 bg-accent/20 rounded-full blur-3xl -z-10" />
@@ -18,10 +18,10 @@ export function FinalCTA() {
         transition={{ duration: 0.6 }}
         className="relative rounded-2xl md:rounded-3xl overflow-hidden"
       >
-        {/* Card background */}
+     
         <div className="absolute inset-0 gradient-bg opacity-95" />
         
-        {/* Content */}
+       
         <div className="relative px-4 py-12 md:px-16 md:py-20 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -59,7 +59,7 @@ export function FinalCTA() {
         </div>
         </div>
 
-        {/* Decorative elements */}
+      
         <div className="hidden md:block absolute top-10 right-10 w-20 h-20 border border-primary-foreground/20 rounded-full opacity-50" />
         <div className="hidden md:block absolute bottom-10 left-10 w-32 h-32 border border-primary-foreground/20 rounded-full opacity-30" />
       </motion.div>

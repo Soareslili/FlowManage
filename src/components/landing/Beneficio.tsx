@@ -47,7 +47,7 @@ export function Benefits() {
   return (
     <section id="beneficios" className="py-20 bg-secondary/30">
       <div className="container-narrow">
-        {/* Section Header */}
+     
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,7 +67,7 @@ export function Benefits() {
           </p>
         </motion.div>
 
-        {/* Benefits Grid */}
+     
         <motion.div
           variants={containerVariants}
           initial="hidden"
